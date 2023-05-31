@@ -10,6 +10,12 @@ In our setting, an agent or a user corresponds to a sample $(X,Y)$ drawn from a 
     We provide both upper bounds for the performance gap due to the induced domain shift, as well as lower bounds for the trade-offs that a classifier has to suffer on either the source training distribution or the induced target distribution. We provide further instantiated analysis for two popular domain adaptation settings, including _covariate shift_ and _target shift_.
 
 
+# Guideline
+
+## Synthetic experiments using simulated data:
+
+The result for synthetic experiments using simulated data is provided in the Jupyter notebook named 'Model-Transferability-ICML23.ipynb'. Detailed dscriptions of the data generating process can be found in Section 6 of the paper. Running the notebook will reproduce Figure 4.
+
 # Citation
 
 If you want to cite our paper, please cite the following format:
